@@ -158,7 +158,7 @@ export default function App() {
       ) : null}
 
       <header
-        className={`site-header${navSolid ? ' is-elevated' : ''}`}
+        className={`site-header${navSolid ? ' is-elevated' : ''}${navOpen ? ' is-drawer-open' : ''}`}
         onMouseEnter={() => setNavHover(true)}
         onMouseLeave={() => setNavHover(false)}
       >
